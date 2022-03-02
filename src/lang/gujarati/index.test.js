@@ -1,4 +1,4 @@
-import numeral from './';
+import numeral from '../../../dist/lang/gujarati';
 
 describe('numeral - englishIndian', () => {
     test('toWords', () => {
@@ -18,7 +18,7 @@ describe('numeral - englishIndian', () => {
         expect(numeral.toWords(120)).toBe('એકસો વીસ');
         expect(numeral.toWords(125)).toBe('એકસો પચ્ચીસ');
         expect(numeral.toWords(1200)).toBe('એક હજાર બસ્સો');
-        expect(numeral.toWords(1234)).toBe('એક હજાર બેસો ચોત્રીસ');
+        expect(numeral.toWords(1234)).toBe('એક હજાર બસ્સો ચોત્રીસ');
         expect(numeral.toWords(12345)).toBe('બાર હજાર ત્રણસો પિસ્તાલીસ');
         expect(numeral.toWords(123456)).toBe('એક લાખ ત્રેવીસ હજાર ચારસો છપ્પન');
         expect(numeral.toWords(1234567)).toBe('બાર લાખ ચોત્રીસ હજાર પાંચસો સડસઠ');
