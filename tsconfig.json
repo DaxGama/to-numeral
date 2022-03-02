@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "declaration": false,
+        "sourceMap": true,
+    },
+    "include": [
+        "src/**/*",
+    ]
+}

@@ -1,3 +1,0 @@
-function ToNumeral() {
-    return "working";
-}

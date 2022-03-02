@@ -1,10 +1,10 @@
 {
   "name": "to-numeral",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converts numbers to numerals/words",
-  "main": "./src/index.ts",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/DaxGama/toNumeral/issues"
   },
-  "homepage": "https://github.com/DaxGama/toNumeral#readme"
+  "homepage": "https://github.com/DaxGama/toNumeral#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "jest": "^27.5.1"
+  }
 }
