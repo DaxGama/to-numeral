@@ -1,8 +1,8 @@
 {
   "name": "to-numeral",
-  "version": "0.0.4",
+  "version": "0.0.41",
   "description": "Converts numbers to numerals/words",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest"
   },
