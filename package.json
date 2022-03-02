@@ -1,6 +1,6 @@
 {
   "name": "to-numeral",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "Converts numbers to numerals/words",
   "main": "./dist/index.js",
   "scripts": {
