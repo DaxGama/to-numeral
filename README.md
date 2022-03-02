@@ -13,6 +13,7 @@ Converts an integer into words.
 If number is decimal, the decimals will be removed.
 ```js
 import englishNumeral from "to-numeral/dist/lang/english";
+
 englishNumeral.toWords(1234); // “one thausand two hundred and thirty-four”
 ```
 
@@ -24,8 +25,8 @@ englishNumeral.toWords(1234); // “one thausand two hundred and thirty-four”
 | English          | one thausand two hundred and thirty-four |
 | English (Indian) | one thausand two hundred and thirty-four |
 | French           | mille deux cent trente-quatre            |
-| Hindi            | एक हज़ार दो सौ चौंतीस                      |
-| Gujarati         | એક હજાર બેસો ચોત્રીસ                       |
+| Hindi            | एक हज़ार दो सौ चौंतीस                        |
+| Gujarati         | એક હજાર બસો ચોત્રીસ                        |
 
 
 ### Demo
